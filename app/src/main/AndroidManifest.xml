@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CardView.CardViewActivity"
+            android:label="@string/title_activity_card_view"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.graham.deaddrop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".CardCreate.CardCreateActivity"
+            android:label="@string/title_activity_card_create"
+            android:parentActivityName=".CardView.CardViewActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CardView.CardViewActivity" />
+        </activity>
     </application>
 
 </manifest>
