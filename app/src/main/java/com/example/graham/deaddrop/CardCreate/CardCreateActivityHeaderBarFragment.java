@@ -12,9 +12,9 @@ import com.example.graham.deaddrop.R;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class CardCreateActivityFragment extends Fragment {
+public class CardCreateActivityHeaderBarFragment extends Fragment {
 
-    public CardCreateActivityFragment() {
+    public CardCreateActivityHeaderBarFragment() {
     }
 
     @Override
