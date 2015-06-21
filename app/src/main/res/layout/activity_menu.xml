@@ -16,6 +16,7 @@
           android:textSize="@dimen/menu_activity_button_text_size"
           android:text="@string/menu_activity_create_button"
           android:layout_weight="1"
+          android:onClick="buttonNew_Click"
           />
 
     <Button
@@ -26,7 +27,8 @@
         android:textAlignment="center"
         android:textSize="@dimen/menu_activity_button_text_size"
         android:text="@string/menu_activity_edit_button"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:onClick="buttonEdit_Click"/>
     <Button
         android:id="@+id/menu_activity_run_button"
         android:layout_width="fill_parent"
@@ -35,7 +37,8 @@
         android:textAlignment="center"
         android:textSize="@dimen/menu_activity_button_text_size"
         android:text="@string/menu_activity_run_button"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:onClick="buttonRun_Click"/>
 
     <Button
         android:id="@+id/menu_activity_share_button"
@@ -45,7 +48,8 @@
         android:textAlignment="center"
         android:textSize="@dimen/menu_activity_button_text_size"
         android:text="@string/menu_activity_share_button"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:onClick="buttonShare_Click"/>
 
 
 
